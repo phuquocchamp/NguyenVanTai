@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georama:wght@200;300;500&amp;display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	
+	<title>Music Player</title>
+</head>
+<body>
+	<!-- <script src="app.js"></script> -->
+	<div class="section">
+		<!-- Music Card -->	
+		<div class="section__background">
+			<img id="backgroundImage" class="section__background-image" src="./img/no4.jpg" alt="">
+		</div>			
+		<div class="music-card__wrapper">
+		    <div class="music-card">
+			  <div class="music-card__content">
+				<img class="music-image" src="./img/no4.jpg" alt="">
+				<div class="music-info">
+				    <h2 class="music-name">Nơi này có anh </h2>
+				    <p class="music-artist">Son Tung - MTP</p>
+				</div>
+				<audio src="./audio/Noi-Nay-Co-Anh-Masew-Bootleg-Son-Tung-M-TP-Masew.mp3"></audio>
+				<div class="music-progress">
+				    <div id="progress-bar" class="music-progress-bar"></div>
+				    <div class="music-progress__time">
+					  <span class="music-progress__time-item music-current-time">00:00</span>
+					  <span class="music-progress__time-item music-duration-time">00:00</span>
+				    </div>
+				</div>
+				<div class="music-controls">
+				    <div id="prev" class="music-controls-item">
+					  <i class="fas fa-backward music-controls-item--icon"></i>
+				    </div>
+    
+				    <div id="play" class="music-controls-item">
+					  <i class="fas fa-play music-controls-item--icon play-icon"></i>
+					  <div class="play-icon-background"></div>
+				    </div>						
+    
+				    <div id="next" class="music-controls-item">
+					  <i class="fas fa-forward music-controls-item--icon"></i>
+				    </div>
+				</div>
+			  </div>
+		    </div>
+		</div>
+		Lyrics
+		<div class="music-card__lyrics">
+			<div class="music-card__panel">	
+				</br>
+				</br>
+				<h5>HAPPY BIRTHDAY Tài, </h5>
+				</br>
+				<h5>Lời đầu tiên, cảm ơn những đóng góp tích cực và các hoạt động năng nổ của bạn trong suốt thời gian vừa qua. Bạn là một thành viên quan trọng của BTC luôn tạo nên bầu không khí vui tươi và tràn ngập tiếng cười. Cảm ơn bạn vì đã trở thành một mảnh ghép yêu thương của Ban HĐXH Đà Nẵng và chúng mình cùng phát triển và phát huy tinh thần “Pay It Forward” của chương trình nhé. </h5>
+				</br>
+				<h5>Hôm nay là ngày đặc biệt nhất của Hân. Support team chúc Ái Hân sinh nhật vui vẻ và tuổi mới Hân sẽ tỏa sáng hơn, luôn lạc quan, gặp nhiều may mắn và đạt được nhiều mục tiêu mình đã đề ra nhé. Ái Hân luôn là một cô gái tự tin và năng động, chúng mình hi vọng Hân vẫn sẽ được lửa nhiệt huyết như vậy nhé. </h5>
+				</br>
+				<h5>Chúng mình hi vọng hôm nay sẽ là một ngày bắt đầu cho một năm tuyệt vời của Hân nha.</h5>
+				<h5>Happy birthday Hân, </h5>
+				<h5>Thân ái,</h5>
+				</br>
+				<h5>Support team.</h5>
+			</div>
+		</div>	
+	</div>
+</body>
+	<script src="./app.js"></script>
+</html>
