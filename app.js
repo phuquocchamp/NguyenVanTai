@@ -21,10 +21,10 @@ const next = document.querySelector('#next');
         });
 
         const playList = [{
-            artist: 'Son Tung - MTP',
-            cover: './img/no2.jpg',
-            musicName: 'Noi Nay Co Anh',
-            musicPath: './audio/Noi-Nay-Co-Anh-Masew-Bootleg-Son-Tung-M-TP-Masew.mp3'
+            artist: 'Amee - Hoàng Dũng - Obito',
+            cover: './img/no4.jpg',
+            musicName: 'Happy birthday to you',
+            musicPath: './audio/HappyBirthdayToYou.mp3'
         }]
 
         const playMusic = () => {
